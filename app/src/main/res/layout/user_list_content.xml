@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/holder_margin" >
+
+    <ProgressBar
+        android:id="@+id/pb_userListContent"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_imgProfileUser"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/civ_imgProfileUser"
+        android:maxLines="1" />
+
+</RelativeLayout>

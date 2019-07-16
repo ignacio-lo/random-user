@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_udUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary_text"
+        tools:context=".userdetail.UserDetailFragment"
+        android:drawableStart="@drawable/ic_person_24dp"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_udMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary_text"
+        tools:context=".userdetail.UserDetailFragment"
+        android:drawableStart="@drawable/ic_email_24dp"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_udPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary_text"
+        tools:context=".userdetail.UserDetailFragment"
+        android:drawableStart="@drawable/ic_phone_24dp"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_udNation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary_text"
+        tools:context=".userdetail.UserDetailFragment"
+        android:drawableStart="@drawable/ic_location_24dp"
+        android:drawablePadding="10dp" />
+
+</LinearLayout>

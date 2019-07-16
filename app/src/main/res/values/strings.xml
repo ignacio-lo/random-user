@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Random User</string>
+    <string name="title_user_detail">User Detail</string>
+    <string name="contact_saved">Contact saved</string>
+    <string name="contact_not_saved">Contact not saved</string>
+    <string name="fav_not_saved">Favorite not saved</string>
+    <string name="search_menu">Search</string>
+    <string name="fav_menu">Favorite</string>
+    <string name="fab_addcontact">Add to Contacts?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="error_getting_users">Error getting users from server</string>
+    <string name="permission_not_granted">To add the user as contact, we need your permission</string>
+</resources>
